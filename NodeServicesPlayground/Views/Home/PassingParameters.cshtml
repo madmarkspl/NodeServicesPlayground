@@ -1,0 +1,17 @@
+﻿@model NodeServicesPlayground.Models.PassingParametersViewModel
+
+<div>
+    <h4>Passing Parameters</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Result)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Result)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to Home</a>
+</div>
